@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog4-Post | Arpan Maheshwari</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/yellow.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo1.png" async>
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+
+    <style>
+        hr {
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body class="blog-post">
+    <!-- Live Style Switcher Starts - demo only -->
+    <div id="switcher" class="">
+        <div class="content-switcher">
+            <h4>STYLE SWITCHER</h4>
+            <ul>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img
+                            src="img/styleswitcher/purple.png" alt="purple" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img
+                            src="img/styleswitcher/red.png" alt="red" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img
+                            src="img/styleswitcher/blueviolet.png" alt="blueviolet" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img
+                            src="img/styleswitcher/blue.png" alt="blue" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img
+                            src="img/styleswitcher/goldenrod.png" alt="goldenrod" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img
+                            src="img/styleswitcher/magenta.png" alt="magenta" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img
+                            src="img/styleswitcher/yellowgreen.png" alt="yellowgreen" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img
+                            src="img/styleswitcher/orange.png" alt="orange" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img
+                            src="img/styleswitcher/green.png" alt="green" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img
+                            src="img/styleswitcher/yellow.png" alt="yellow" /></a>
+                </li>
+            </ul>
+
+            <div id="hideSwitcher">&times;</div>
+        </div>
+    </div>
+    <div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+    <!-- Live Style Switcher Ends - demo only -->
+    <!-- Header Starts -->
+    <header class="header" id="navbar-collapse-toggle">
+        <!-- Fixed Navigation Starts -->
+        <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+            <li class="icon-box">
+                <i class="fa fa-home"></i>
+                <a href="index.html">
+                    <h2>Home</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-user"></i>
+                <a href="about.html">
+                    <h2>About</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-briefcase"></i>
+                <a href="portfolio.html">
+                    <h2>Portfolio</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-envelope-open"></i>
+                <a href="contact.html">
+                    <h2>Contact</h2>
+                </a>
+            </li>
+            <li class="icon-box active">
+                <i class="fa fa-comments"></i>
+                <a href="blog.html">
+                    <h2>Blog</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-rss"></i>
+                <a href="myself.html">
+                    <h2>MySelf</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-play"></i>
+                <a href="https://www.youtube.com/watch?v=-3d1PB3SU3c" target="_blank">
+                    <h2>Play</h2>
+                </a>
+            </li>
+        </ul>
+        <!-- Fixed Navigation Ends -->
+        <!-- Mobile Menu Starts -->
+        <nav role="navigation" class="d-block d-lg-none">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="list-unstyled" id="menu">
+                    <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                    <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                    <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                    <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                    <li class="active"><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                    <li><a href="myself.html"><i class="fa fa-rss"></i><span>MySelf</span></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=-3d1PB3SU3c" target="_blank"><i
+                                class="fa fa-play"></i><span>Play</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Mobile Menu Ends -->
+    </header>
+    <!-- Header Ends -->
+    <!-- Page Title Starts -->
+    <section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+        <h1>my <span>blog</span></h1>
+        <span class="title-bg">posts</span>
+    </section>
+    <!-- Page Title Ends -->
+    <!-- Main Content Starts -->
+    <section class="main-content revealator-slideup revealator-once revealator-delay1">
+        <div class="container">
+            <div class="row">
+                <!-- Article Starts -->
+                <article class="col-12">
+                    <!-- Meta Starts -->
+                    <div class="meta open-sans-font">
+                        <span><i class="fa fa-user"></i> ARPAN</span>
+                        <span class="date"><i class="fa fa-calendar"></i> 9 January 2017</span>
+                        <span><i class="fa fa-tags"></i> Humor, Comedy </span>
+                    </div>
+                    <!-- Meta Ends -->
+                    <!-- Article Content Starts -->
+                    <h1 class="text-uppercase text-capitalize">How to Inject Humor & Comedy Into Your Brand</h1>
+                    <img src="img/blog/blog-post-1.jpg" class="img-fluid" alt="Blog image" />
+                    <div class="blog-excerpt open-sans-font pb-5">
+                        <p>
+                            A worldwide survey carried out by Nielsen showed that incorporating humor into advertising
+                            themes always performed well compared to other themes such as pets, family, and sex. And
+                            this is true all over the world.
+
+                            And this is not at all surprising, because people love to laugh. Some of the most viral
+                            content and most watched videos all over the world are humorous content and videos.
+
+                            Injecting some humor into your brand is one of the best tactics you can employ to grab the
+                            attention of your audience and create a long-lasting impression.
+
+                            But you would have to be careful: what is funny for you may cause someone else to roll their
+                            eyes or, even worse, take offence. Humor is subjective, so you’ve got to be very intentional
+                            and careful when using humor in your advertisements.
+
+                            Here are a few tips to help you do that without falling flat on your face or embarrassing
+                            yourself and chasing your audience away:
+                        </p>
+
+                        <h3>Know Your Audience</h3>
+                        <p>
+                            Every comedian worth their salt would be able to tell you this. You’ve got to know your
+                            audience in order to recognize what they consider funny and relatable.
+
+                            As a marketer, one way to go about doing this involves creating buyer personas. By
+                            understanding the demographics and particularities of your audience you would be able to get
+                            a better handle on what they consider funny, and what they would consider offensive.
+                        </p>
+
+                        <h3>Know Their Pain Points</h3>
+                        <p>
+                            Find out what the pain points of your audience are, and then find a way to make light humor
+                            out of it. This shows your audience that you understand what their issues and needs are, and
+                            also acts a great entryway into showing how your business or brand can solve said problems.
+                        </p>
+
+                        <h3>Give It a Test Run</h3>
+                        <p>
+                            Not even professional comedians would dare use untested content. You don’t want to discover
+                            your humor is ineffective during an active campaign—that would be a quick way to lose
+                            customers and credibility forever.
+
+                            So, run your funny content by others. Preferably they should be members of the target
+                            audience rather than co-workers who are emotionally invested. If your punch line fails to
+                            deliver the required reaction, you would know you still have some tweaking to do.
+                        </p>
+
+                        <h3>Keep It Light and Unserious</h3>
+                        <p>
+                            Keeping the tone of your conversation after your ad light and humorous will go a long way to
+                            keep members of the target audience engaged. You want to prolong the impact of your funny
+                            content.
+                        </p>
+
+                        <h3>Leave a Strong Impression</h3>
+                        <p>
+                            Sometimes all you need to do to make a strong and long-lasting impression is to go around
+                            digging and sharing little known or interesting facts about the product you want to share.
+                            And then serve it up to your audience in a way that is humorous.
+                        </p>
+
+                        <h3>Don’t Forget Memes</h3>
+                        <p>
+                            When in doubt, go with memes. The internet is awash with them, and that is because everybody
+                            likes them. You could simply hijack trending memes that have spread across major social
+                            media platforms and piggy back your way towards popularity that way. This is one of the
+                            fastest ways to get the attention of the more social media savvy section of your audience.
+                        </p>
+                    </div>
+                    <!-- Article Content Ends -->
+                </article>
+                <!-- Article Ends -->
+            </div>
+            <hr>
+        </div>
+        <div id="disqus_thread" class="container disqus-comments"></div>
+        <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                    s = d.createElement('script');
+                s.src = 'https://arpan-maheshwari.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                powered
+                by
+                Disqus.</a>
+        </noscript>
+    </section>
+    <!-- Template JS Files -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/styleswitcher.js"></script>
+    <script src="js/preloader.min.js"></script>
+    <script src="js/fm.revealator.jquery.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpGridGallery.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+
+</html>

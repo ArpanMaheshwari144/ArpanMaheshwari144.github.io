@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blog3-Post | Arpan Maheshwari</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/yellow.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/logo1.png" async>
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+
+    <style>
+        hr {
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body class="blog-post">
+    <!-- Live Style Switcher Starts - demo only -->
+    <div id="switcher" class="">
+        <div class="content-switcher">
+            <h4>STYLE SWITCHER</h4>
+            <ul>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img
+                            src="img/styleswitcher/purple.png" alt="purple" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img
+                            src="img/styleswitcher/red.png" alt="red" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img
+                            src="img/styleswitcher/blueviolet.png" alt="blueviolet" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img
+                            src="img/styleswitcher/blue.png" alt="blue" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img
+                            src="img/styleswitcher/goldenrod.png" alt="goldenrod" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img
+                            src="img/styleswitcher/magenta.png" alt="magenta" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img
+                            src="img/styleswitcher/yellowgreen.png" alt="yellowgreen" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img
+                            src="img/styleswitcher/orange.png" alt="orange" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img
+                            src="img/styleswitcher/green.png" alt="green" /></a>
+                </li>
+                <li>
+                    <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img
+                            src="img/styleswitcher/yellow.png" alt="yellow" /></a>
+                </li>
+            </ul>
+
+            <div id="hideSwitcher">&times;</div>
+        </div>
+    </div>
+    <div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+    <!-- Live Style Switcher Ends - demo only -->
+    <!-- Header Starts -->
+    <header class="header" id="navbar-collapse-toggle">
+        <!-- Fixed Navigation Starts -->
+        <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+            <li class="icon-box">
+                <i class="fa fa-home"></i>
+                <a href="index.html">
+                    <h2>Home</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-user"></i>
+                <a href="about.html">
+                    <h2>About</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-briefcase"></i>
+                <a href="portfolio.html">
+                    <h2>Portfolio</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-envelope-open"></i>
+                <a href="contact.html">
+                    <h2>Contact</h2>
+                </a>
+            </li>
+            <li class="icon-box active">
+                <i class="fa fa-comments"></i>
+                <a href="blog.html">
+                    <h2>Blog</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-rss"></i>
+                <a href="myself.html">
+                    <h2>MySelf</h2>
+                </a>
+            </li>
+            <li class="icon-box">
+                <i class="fa fa-play"></i>
+                <a href="https://www.youtube.com/watch?v=-3d1PB3SU3c" target="_blank">
+                    <h2>Play</h2>
+                </a>
+            </li>
+        </ul>
+        <!-- Fixed Navigation Ends -->
+        <!-- Mobile Menu Starts -->
+        <nav role="navigation" class="d-block d-lg-none">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul class="list-unstyled" id="menu">
+                    <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                    <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                    <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                    <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                    <li class="active"><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+                    <li><a href="myself.html"><i class="fa fa-rss"></i><span>MySelf</span></a></li>
+                    <li><a href="https://www.youtube.com/watch?v=-3d1PB3SU3c" target="_blank"><i
+                                class="fa fa-play"></i><span>Play</span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Mobile Menu Ends -->
+    </header>
+    <!-- Header Ends -->
+    <!-- Page Title Starts -->
+    <section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+        <h1>my <span>blog</span></h1>
+        <span class="title-bg">posts</span>
+    </section>
+    <!-- Page Title Ends -->
+    <!-- Main Content Starts -->
+    <section class="main-content revealator-slideup revealator-once revealator-delay1">
+        <div class="container">
+            <div class="row">
+                <!-- Article Starts -->
+                <article class="col-12">
+                    <!-- Meta Starts -->
+                    <div class="meta open-sans-font">
+                        <span><i class="fa fa-user"></i> ARPAN</span>
+                        <span class="date"><i class="fa fa-calendar"></i> 9 January 2017</span>
+                        <span><i class="fa fa-tags"></i> Web Accessibility </span>
+                    </div>
+                    <!-- Meta Ends -->
+                    <!-- Article Content Starts -->
+                    <h1 class="text-uppercase text-capitalize">Everything You Need to Know About Web Accessibility</h1>
+                    <img src="img/blog/blog-post-1.jpg" class="img-fluid" alt="Blog image" />
+                    <div class="blog-excerpt open-sans-font pb-5">
+                        <h3>So, What Does “Web Accessibility” Refer To?</h3>
+                        <p>
+                            In simpler words, “web accessibility” is an effective way to ensure “everyone on the web”
+                            can
+                            effortlessly access and use any forms of digital media. It can be a website, or it can be
+                            any
+                            software application as well.
+
+                            Now, why did I focus on the part “everyone on the web”?
+
+                            Well, you have to understand that people with any physical disability or cognitive
+                            limitations
+                            use the web too. A recently made research report highlights that in the United Kingdom;
+                            nearly
+                            11 million people have some kind of disability. And it does not mean that every one of them
+                            cannot just use the web!
+
+                            Of course, many disables use the internet. And they too are part of the audience that seeks
+                            favors through digital services. Hence, it is the responsibility of the trades to consider
+                            them
+                            and craft a hassle-free journey for them on the web.
+
+                            This is why paying mind to the web reachability practice while building a website makes sure
+                            that everyone can get the most out of the website and interact with the site smoothly.
+                        </p>
+
+                        <h3>How The User Experience Gets Affected By Disability?</h3>
+                        <p>
+                            To guarantee properly done accessibility, reaching the root of what is causing the
+                            hindrance,
+                            what is stopping the flawless access is kind of essential. Only then figuring out the base
+                            of
+                            the issues and coming up with the right way out to resolve the barrier becomes easier.
+
+                            <br>
+                            So, here is a list of some accessibility challenges.<br>
+
+                            ▢ Users with visual impairment may face problems while reading a text. Maybe the size of
+                            the text needs to be increased. Or maybe they need screen readers!<br>
+                            ▢ Users, who suffer from color blindness, cannot distinguish between the colors. They face
+                            problems in distinguishing text blocks and its background.<br>
+                            ▢ Users with dyslexia suffer from not being able to read and spell properly.<br>
+                            ▢ There are users out there who feel troubled to click on any link or any small navigation
+                            icons.<br>
+                            ▢ You add video and audio content to your website to keep your visitors engaged. But people
+                            with
+                            hearing troubles cannot access it!<br>
+                            ▢ Any users who come under the aforementioned categories need assistive technologies so
+                            that
+                            they
+                            can browse the web easily.
+                        </p>
+
+                        <h3>A Sneak Peek to Some Assistive Technologies</h3>
+                        <p>
+                            Continuing from the above point, I would like to draw your attention to some advanced
+                            technologies that help disable users to get a smooth web browsing experience.<br>
+
+                            ▢ Braille Terminals or Braille Keyboards<br>
+                            ▢ Screen Reader Software<br>
+                            ▢ Speech Recognition Software<br>
+                            ▢ Sign Language or using subtitles for videos on a website<br>
+                            ▢ Screen Magnification Software<br>
+                            ▢ Keyboard Overlays<br>
+                        </p>
+
+                        <h3>Now, Why Is Web Accessibility Necessary?</h3>
+                        <p>
+                            See, today, the Internet and Web are crucial parts of everyone’s lives, and it doesn’t need
+                            any
+                            special explanation. These are the valuable resources that we all need in our lives.
+
+                            Be it for the government or business organizations, be it for employment or for students to
+                            learn better, be it for the healthcare industry to simply recreational activities – to do
+                            anything, we access these resources.
+
+                            Now, do you think it should be accessible to only the people who do not have any kind of
+                            disabilities? Of course not!
+
+                            You have to keep in mind two factors i.e. an equal opportunity for everyone along with
+                            giving
+                            everyone the same access. You need to understand that internet access is not considered as a
+                            privilege. Rather, it is a right for everyone. And by abiding by the principles of web
+                            design
+                            that supports accessibility, you can make sure of the fact that your digital presence is
+                            accessible to anyone irrespective of their abilities.
+
+                            Other than this, there are some business benefits of web accessibility too.
+                        </p>
+
+                        <h3>A Competitive Advantage in the Market</h3>
+                        <p>
+                            Honestly, most of the websites built out there are not accessible to “everyone”! In such a
+                            scenario, if you make your website keeping the web accessibility factor in mind, it can
+                            reach a
+                            broader target audience.
+
+                            Reshaping a shopping website for the disabled buyers out there will increase client numbers
+                            on
+                            the website, as well as the popularity of it. All because the website is usable for both
+                            enabled
+                            and disabled audiences.
+
+                            This is definitely an added advantage for you over your competitors who are still not giving
+                            that much importance to the web accessibility.
+                        </p>
+
+                        <h3>Better Accessibility Ensures Better Usability</h3>
+                        <p>
+                            The accessibility of your website is high- means; more people can visit and navigate through
+                            your website. And when the website traffic is high, the chances of business conversion are
+                            high
+                            too. The math here is as simple as that!
+
+                            These accessibility and usability, even though these two are different from each other, they
+                            kind of have the same objectives. And the objective is to devise engaging and impressive
+                            user
+                            experience. These two factors ensure that your website functions properly and delivers a
+                            seamless UX to the visitors.
+                        </p>
+
+                        <h3>Americans with Disabilities Act</h3>
+                        <p>
+                            In the US, this law protects the rights of disabled ones. So, ignoring them as a potential
+                            audience can have the same impact as violating the law. And this is absolutely wrong. To
+                            abide
+                            by this rule and to avert the legal consequences, trades should consider the disabled ones
+                            too.
+                        </p>
+
+
+                        <h3>Things to Consider While Making Your Website Accessible to Everyone</h3>
+                        <p>
+                            So far, you got to know what web accessibility is and how it holds a major significance in
+                            the
+                            website development and design industry. Now, find out how you can do it i.e. making the
+                            website
+                            accessible to everyone.
+                        </p>
+
+                        <h3>Title Tag</h3>
+                        <p>
+                            You already know how important the title tag is for SEO purposes. This is crucial for
+                            letting
+                            Google know and understand “about the web page”. Now, while integrating web accessibility
+                            too,
+                            this title tag plays a major role.
+
+                            The ‘Screen Readers’ prefer having a title tag. It aids the disabled who use screen readers
+                            to
+                            access a site.
+                        </p>
+
+                        <h3>Using Default HTML Tags</h3>
+                        <p>
+                            Disables need such tech-help that aid them to go through a site. They prefer taking
+                            assistance
+                            from ‘Screen Readers’. Now, this device follows a specific method while going through every
+                            component on a page along with the texts. When it fails to decipher an element, the one
+                            using
+                            the device fails to comprehend it too resulting in a poor experience for the users.
+
+                            Opting for HTML tags that are set by default is a way out to this problem.
+                        </p>
+
+                        <h3>Keyboard Navigation</h3>
+                        <p>
+                            A site that anyone can navigate seamlessly with just a keyboard is an example of how
+                            actually it
+                            should be devised.
+
+                            However, there is an issue with such navigation buttons that are animated. Usually, screen
+                            readers cannot understand that. So, it is advisable not to use such buttons as the dropdowns
+                            to
+                            ensure better accessibility.
+                        </p>
+
+                        <h3>Do Not Forget to Use Subtitles</h3>
+                        <p>
+                            According to the recent practices, applying audio and video elements to entertain and
+                            interact
+                            with the visitors on the site is a popular practice. With this, the structure of a website
+                            will
+                            not fail.
+
+                            Now, how about a user who has hearing problems? This is why you should always include
+                            subtitles.
+
+                            With video transcription, the website enables Google to read the transcriptions. This allows
+                            for
+                            better rankings on the SERPs.
+                        </p>
+
+                        <h3>Are There Any Tools Available to Check Web Accessibility?</h3>
+                        <p>
+                            Yes, you can find some effective tools today that can help you to understand whether you are
+                            doing the web accessibility right or not.
+
+                            <br>
+                            Among many freely available tools, here are a few globally popular names.<br>
+
+                            ▢ A11Y Compliance Platform<br>
+                            ▢ Dynomapper<br>
+                            ▢ Automated Accessibility Testing Tool<br>
+                            ▢ Accessibility Checklist<br>
+                            ▢ Accessibility Checker and more.<br>
+                            Tools are available, fine! But buzz sessions with experts are also required to handle the
+                            tools
+                            in the proper way and analyze the outcomes. Their inputs and guidance are valuable too as
+                            they
+                            are dealing in the industry for years and have deeper insights to build a site that is
+                            accessible to everyone irrespective of their physical abilities.
+                        </p>
+                    </div>
+                    <!-- Article Content Ends -->
+                </article>
+                <!-- Article Ends -->
+            </div>
+            <hr>
+        </div>
+        <div id="disqus_thread" class="container disqus-comments"></div>
+        <script>
+            /**
+             *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function () { // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                    s = d.createElement('script');
+                s.src = 'https://arpan-maheshwari.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
+                powered
+                by
+                Disqus.</a>
+        </noscript>
+    </section>
+    <!-- Template JS Files -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/styleswitcher.js"></script>
+    <script src="js/preloader.min.js"></script>
+    <script src="js/fm.revealator.jquery.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpGridGallery.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+
+</html>
