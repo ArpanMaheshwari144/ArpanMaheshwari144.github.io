@@ -1875,6 +1875,7 @@ body.light hr.separator {
 }
 
 [data-pagination] {
+    /* pt -> Points are a unit of measurement used in print. Points are based on an inch on a ruler, and one inch is equal to 72 points. This unit also varies greatly between different browsers and screens when used in CSS. Points are very good for setting up a print CSS to overcome that browser issue, but other than that, I would not recommend using points for developing websites. */
     font-size: 8pt;
     line-height: 1;
     font-weight: 400;
@@ -1900,6 +1901,7 @@ body.light hr.separator {
     border-radius: 3px;
 }
 
+/* The greater than sign (>) selector in CSS is used to select the element with a specific parent. It is called as element > element selector. It is also known as the child combinator selector which means that it selects only those elements which are direct children of a parent. It looks only one level down the markup structure and not further deep down. Elements which are not the direct child of the specified parent is not selected. */
 [data-pagination]>a {
     font-size: 140%;
 }
