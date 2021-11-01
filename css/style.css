@@ -1756,7 +1756,8 @@ body.light hr.separator {
 
     .custom-title {
         font-size: 22px;
-        margin: auto 95px;
+        /* margin: auto 95px; */
+        text-align: center;
     }
 
     .about .main-content {
