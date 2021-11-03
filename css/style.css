@@ -1515,6 +1515,7 @@ body.light hr.separator {
 
     #menuToggle input:checked~ul {
         transform: none;
+        overflow-y: auto;
     }
 
     #menu li {
