@@ -119,6 +119,9 @@
     }
   });
 
+  /* ----------------------------------------------------------- */
+  /*  HEADING ANIMATION
+      /* ----------------------------------------------------------- */
   const target = window.document.querySelectorAll('h6')[0]
   const flickerLetter = letter => `<span style="animation: text-flicker-in-glow ${Math.random()*4}s linear both ">${letter}</span>`
   const colorLetter = letter => `<span style="color: hsla(${Math.random()*360}, 100%, 80%, 1);">${letter}</span>`;
@@ -133,4 +136,28 @@
   target.onclick = ({
     target
   }) => neonGlory(target);
+
+  /* ----------------------------------------------------------- */
+  /*  HEADING ANIMATION
+      /* ----------------------------------------------------------- */
+  var textWrapper = document.querySelector('.ml2');
+  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  anime.timeline({
+      loop: true
+    })
+    .add({
+      targets: '.ml2 .letter',
+      scale: [4, 1],
+      opacity: [0, 1],
+      translateZ: 0,
+      easing: "easeOutExpo",
+      duration: 950,
+      delay: (el, i) => 70 * i
+    }).add({
+      targets: '.ml2',
+      opacity: 0,
+      duration: 1000,
+      easing: "easeOutExpo",
+      delay: 1000
+    });
 })(jQuery);

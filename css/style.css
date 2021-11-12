@@ -1,36 +1,3 @@
-/*------------------------------------------------------------------
-[Table of contents]
-	+ General
-	    - Miscellaneous
-		- Light Body
-		- Buttons
-		- Page Title
-	+ Header
-		- Desktop Navigation
-		- Mobile Navigation
-	+ Pages
-		- Homepage
-		+ About
-		    - Personal Info List
-			- Box Stats
-			- Resume
-			- Skills
-		+ Portfolio
-		    - Grid
-		    + Slideshow
-                - Embedded Videos
-                - Carousel
-                - Navigation
-        + Contact
-            - Left Side
-            - Contact Form
-		+ Blog
-            - Latest Posts
-            - Pagination
-	- Responsive Design Styles
--------------------------------------------------------------------*/
-
-
 /* [ GENERAL ] */
 
 
@@ -548,9 +515,10 @@ body.light hr.separator {
         1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
-.home .home-details h1 span {
-    color: #fff;
-    font-weight: 600;
+.home .home-details .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+    color: #dbb968;
 }
 
 .home .home-details h6 {
