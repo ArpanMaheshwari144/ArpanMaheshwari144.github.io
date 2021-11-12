@@ -518,7 +518,7 @@ body.light hr.separator {
 .home .home-details .ml2 .letter {
     display: inline-block;
     line-height: 1em;
-    color: #dbb968;
+    color: #ffb400;
 }
 
 .home .home-details h6 {
@@ -846,6 +846,33 @@ body.light hr.separator {
     }
 }
 
+.home .home-details a {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    background: #ffb400;
+    border-radius: 30px;
+    box-shadow: 0px 10px 25px #57aba7, 0px -10px 25px #a6fffa, inset 0px -5px 10px #57aba7, inset 0px 5px 10px #a6fffa;
+    color: white;
+    font-size: 15px;
+    transition: 500ms;
+}
+
+.home .home-details a:hover {
+    border: 2px solid #6dd6d1;
+    animation: hueRotation 2s linear infinite;
+}
+
+@keyframes hueRotation {
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.home .home-details a:focus {
+    outline: none;
+}
+
 
 /*** About ***/
 
@@ -880,6 +907,34 @@ body.light hr.separator {
 .about .about-list .value a {
     text-decoration: none;
 }
+
+.about .container .resume-download a {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    background: #ffb400;
+    border-radius: 30px;
+    box-shadow: 0px 10px 25px #57aba7, 0px -10px 25px #a6fffa, inset 0px -5px 10px #57aba7, inset 0px 5px 10px #a6fffa;
+    color: white;
+    font-size: 15px;
+    transition: 500ms;
+}
+
+.about .container .resume-download a:hover {
+    border: 2px solid #6dd6d1;
+    animation: hueRotation 2s linear infinite;
+}
+
+@keyframes hueRotation {
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.about .container .resume-download a:focus {
+    outline: none;
+}
+
 
 
 /* Box Stats */
@@ -1372,7 +1427,7 @@ body.light hr.separator {
     color: #fff;
     transition: .3s;
     font-size: 17px;
-    margin: 0 6px;
+    margin: 5px 6px;
     background: #2b2a2a;
     border-radius: 50%;
 }
@@ -1405,6 +1460,33 @@ body.light hr.separator {
     border-radius: 30px;
     outline: none !important;
     transition: .3s;
+}
+
+.contact .contactform button {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    background: #ffb400;
+    border-radius: 30px;
+    box-shadow: 0px 10px 25px #57aba7, 0px -10px 25px #a6fffa, inset 0px -5px 10px #57aba7, inset 0px 5px 10px #a6fffa;
+    color: white;
+    font-size: 15px;
+    transition: 500ms;
+}
+
+.contact .contactform button:hover {
+    border: 2px solid #6dd6d1;
+    animation: hueRotation 2s linear infinite;
+}
+
+@keyframes hueRotation {
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.contact .contactform button:focus {
+    outline: none;
 }
 
 .contact .contactform .form-message {
