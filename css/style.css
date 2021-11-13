@@ -528,12 +528,6 @@ body.light hr.separator {
     display: block;
 }
 
-.home .home-details p {
-    margin: 10px 0 23px;
-    font-size: 16px;
-    line-height: 32px;
-}
-
 @-webkit-keyframes text-flicker-in-glow {
     0% {
         opacity: 0
@@ -871,6 +865,15 @@ body.light hr.separator {
 
 .home .home-details a:focus {
     outline: none;
+}
+
+.home .home-details .title {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
 }
 
 
