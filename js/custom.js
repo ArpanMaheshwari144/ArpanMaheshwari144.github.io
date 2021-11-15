@@ -9,12 +9,18 @@
       $(this).hide();
       $(".pause").fadeIn();
       $("#mymusic")[0].play();
+      if ($(".play")) {
+        document.getElementById("myplay").style.display = "none";
+      }
     });
 
     $(".pause").on('click', function () {
       $(this).hide();
       $(".play").fadeIn();
       $("#mymusic")[0].pause();
+      if ($(".pause")) {
+        document.getElementById("mypause").style.display = "none";
+      }
     });
   });
 
