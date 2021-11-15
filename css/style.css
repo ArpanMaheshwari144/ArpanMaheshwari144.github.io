@@ -304,7 +304,6 @@ body.light hr.separator {
     text-decoration: none;
 }
 
-
 /*** Page Title ***/
 
 .title-section {
@@ -876,11 +875,39 @@ body.light hr.separator {
     -webkit-background-clip: text;
 }
 
+.home .header .icon-box .play {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
+}
+
+.home .header .icon-box .pause {
+    display: none;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
+}
+
 
 /*** About ***/
 
 .about .main-content {
     padding-bottom: 20px;
+}
+
+.about .header .icon-box .play {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
+}
+
+.about .header .icon-box .pause {
+    display: none;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
 }
 
 
@@ -1095,6 +1122,20 @@ body.light hr.separator {
 .portfolio .main-content {
     padding-bottom: 60px;
     margin-top: -15px;
+}
+
+.portfolio .header .icon-box .play {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
+}
+
+.portfolio .header .icon-box .pause {
+    display: none;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
 }
 
 
@@ -1377,6 +1418,20 @@ body.light hr.separator {
     padding-bottom: 85px;
 }
 
+.contact .header .icon-box .play {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
+}
+
+.contact .header .icon-box .pause {
+    display: none;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
+}
+
 
 /* Left Side */
 
@@ -1531,6 +1586,20 @@ body.light hr.separator {
     padding-bottom: 85px;
 }
 
+.blog .header .icon-box .play {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
+}
+
+.blog .header .icon-box .pause {
+    display: none;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
+}
+
 /* Latest Posts */
 
 .blog .post-container {
@@ -1614,6 +1683,20 @@ body.light hr.separator {
 
 /* Blog Post */
 
+.blog-post .header .icon-box .play {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
+}
+
+.blog-post .header .icon-box .pause {
+    display: none;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
+}
+
 .blog-post article {
     max-width: 700px;
     margin: 0 auto;
@@ -1646,6 +1729,20 @@ body.light hr.separator {
 
 .comment .post-content {
     margin-top: 10px;
+}
+
+.comment .header .icon-box .play {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
+}
+
+.comment .header .icon-box .pause {
+    display: none;
+    margin: auto;
+    cursor: pointer;
+    width: 26px;
 }
 
 .post-image {
@@ -1815,6 +1912,15 @@ body.light hr.separator {
         margin: 10px 0 23px;
         font-size: 15px;
         line-height: 30px;
+    }
+
+    .play {
+        margin-top: 13px;
+    }
+
+    .pause {
+        display: none;
+        margin-top: 13px;
     }
 
     #menuToggle {
@@ -2040,6 +2146,15 @@ body.light hr.separator {
         font-size: 14px;
         line-height: 28px;
     }
+
+    .play {
+        margin-top: 13px;
+    }
+
+    .pause {
+        display: none;
+        margin-top: 13px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -2054,6 +2169,15 @@ body.light hr.separator {
     .title-section.revealator-delay1 {
         transform: none !important;
         opacity: 1 !important;
+    }
+
+    .play {
+        margin-top: 13px;
+    }
+
+    .pause {
+        display: none;
+        margin-top: 13px;
     }
 
     #menuToggle {

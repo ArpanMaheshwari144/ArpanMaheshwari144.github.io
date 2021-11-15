@@ -2,6 +2,20 @@
   "use strict";
 
   $(document).ready(function () {
+    $(".play").on('click', function () {
+      $(this).hide();
+      $(".pause").fadeIn();
+      $("#mymusic")[0].play();
+    });
+
+    $(".pause").on('click', function () {
+      $(this).hide();
+      $(".play").fadeIn();
+      $("#mymusic")[0].pause();
+    });
+  });
+
+  $(document).ready(function () {
     /* ----------------------------------------------------------- */
     /*  FIX REVEALATOR ISSUE AFTER PAGE LOADED
         /* ----------------------------------------------------------- */
