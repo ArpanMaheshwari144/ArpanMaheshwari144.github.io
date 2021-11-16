@@ -12,6 +12,13 @@
       if ($(".play")) {
         document.getElementById("myplay").style.display = "none";
       }
+      if ($(".play")) {
+        document.getElementById("pla").style.display = "none";
+      }
+      if ($(".play")) {
+        document.getElementById("textPlay").style.display = "none";
+      }
+
     });
 
     $(".pause").on('click', function () {
@@ -20,6 +27,12 @@
       $("#mymusic")[0].pause();
       if ($(".pause")) {
         document.getElementById("mypause").style.display = "none";
+      }
+      if ($(".pause")) {
+        document.getElementById("pau").style.display = "none";
+      }
+      if ($(".pause")) {
+        document.getElementById("textPause").style.display = "none";
       }
     });
   });

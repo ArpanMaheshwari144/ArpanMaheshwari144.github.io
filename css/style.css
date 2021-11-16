@@ -1914,8 +1914,19 @@ body.light hr.separator {
         margin-top: 13px;
     }
 
+    #textPlay {
+        position: absolute;
+        left: 84px;
+        font-size: 25px;
+    }
+
+    #textPause {
+        position: absolute;
+        left: 84px;
+        font-size: 25px;
+    }
+
     .pause {
-        display: none;
         margin-top: 13px;
     }
 
