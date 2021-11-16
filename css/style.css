@@ -1912,22 +1912,27 @@ body.light hr.separator {
 
     .play {
         margin-top: 13px;
+        width: 23px;
     }
 
     #textPlay {
         position: absolute;
-        left: 84px;
-        font-size: 25px;
+        left: 73px;
+        font-size: 26px;
+        margin: 6px;
     }
 
     #textPause {
         position: absolute;
-        left: 84px;
-        font-size: 25px;
+        left: 73px;
+        font-size: 26px;
+        margin: 6px;
     }
 
     .pause {
+        /* display: none; */
         margin-top: 13px;
+        width: 23px;
     }
 
     #menuToggle {
@@ -2159,8 +2164,22 @@ body.light hr.separator {
     }
 
     .pause {
-        display: none;
+        /* display: none; */
         margin-top: 13px;
+    }
+
+    #textPlay {
+        position: absolute;
+        left: 73px;
+        font-size: 26px;
+        margin: 6px;
+    }
+
+    #textPause {
+        position: absolute;
+        left: 73px;
+        font-size: 26px;
+        margin: 6px;
     }
 }
 
@@ -2183,8 +2202,22 @@ body.light hr.separator {
     }
 
     .pause {
-        display: none;
+        /* display: none; */
         margin-top: 13px;
+    }
+
+    #textPlay {
+        position: absolute;
+        left: 52px;
+        font-size: 18px;
+        margin: 10px;
+    }
+
+    #textPause {
+        position: absolute;
+        left: 52px;
+        font-size: 18px;
+        margin: 10px;
     }
 
     #menuToggle {
