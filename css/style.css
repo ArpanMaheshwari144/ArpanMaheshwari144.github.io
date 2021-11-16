@@ -1915,6 +1915,12 @@ body.light hr.separator {
         width: 23px;
     }
 
+    .pause {
+        display: none;
+        margin-top: 13px;
+        width: 23px;
+    }
+
     #textPlay {
         position: absolute;
         left: 73px;
@@ -1927,12 +1933,6 @@ body.light hr.separator {
         left: 73px;
         font-size: 26px;
         margin: 6px;
-    }
-
-    .pause {
-        /* display: none; */
-        margin-top: 13px;
-        width: 23px;
     }
 
     #menuToggle {
@@ -2164,7 +2164,7 @@ body.light hr.separator {
     }
 
     .pause {
-        /* display: none; */
+        display: none;
         margin-top: 13px;
     }
 
@@ -2202,7 +2202,7 @@ body.light hr.separator {
     }
 
     .pause {
-        /* display: none; */
+        display: none;
         margin-top: 13px;
     }
 

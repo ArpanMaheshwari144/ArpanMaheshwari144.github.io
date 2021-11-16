@@ -12,11 +12,15 @@
       if ($(".play")) {
         document.getElementById("myplay").style.display = "none";
       }
+
+      // Mobile Menu Starts
       if ($(".play")) {
         document.getElementById("pla").style.display = "none";
+        document.getElementById("pau").style.display = "inline";
       }
       if ($(".play")) {
         document.getElementById("textPlay").style.display = "none";
+        document.getElementById("textPause").style.display = "inline";
       }
 
     });
@@ -28,6 +32,8 @@
       if ($(".pause")) {
         document.getElementById("mypause").style.display = "none";
       }
+
+      // Mobile Menu Starts
       if ($(".pause")) {
         document.getElementById("pau").style.display = "none";
       }
