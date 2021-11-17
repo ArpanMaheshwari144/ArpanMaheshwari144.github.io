@@ -1926,6 +1926,7 @@ body.light hr.separator {
         left: 73px;
         font-size: 26px;
         margin: 6px;
+        text-transform: uppercase;
     }
 
     #textPause {
@@ -1933,6 +1934,7 @@ body.light hr.separator {
         left: 73px;
         font-size: 26px;
         margin: 6px;
+        text-transform: uppercase;
     }
 
     #menuToggle {
@@ -2173,6 +2175,7 @@ body.light hr.separator {
         left: 73px;
         font-size: 26px;
         margin: 6px;
+        text-transform: uppercase;
     }
 
     #textPause {
@@ -2180,6 +2183,7 @@ body.light hr.separator {
         left: 73px;
         font-size: 26px;
         margin: 6px;
+        text-transform: uppercase;
     }
 }
 
@@ -2211,6 +2215,7 @@ body.light hr.separator {
         left: 52px;
         font-size: 18px;
         margin: 10px;
+        text-transform: uppercase;
     }
 
     #textPause {
@@ -2218,6 +2223,7 @@ body.light hr.separator {
         left: 52px;
         font-size: 18px;
         margin: 10px;
+        text-transform: uppercase;
     }
 
     #menuToggle {
