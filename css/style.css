@@ -875,14 +875,14 @@ body.light hr.separator {
     display: block;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 .home .header .icon-box .pause {
     display: none;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 
@@ -896,14 +896,14 @@ body.light hr.separator {
     display: block;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 .about .header .icon-box .pause {
     display: none;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 
@@ -1124,14 +1124,14 @@ body.light hr.separator {
     display: block;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 .portfolio .header .icon-box .pause {
     display: none;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 
@@ -1418,14 +1418,14 @@ body.light hr.separator {
     display: block;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 .contact .header .icon-box .pause {
     display: none;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 
@@ -1586,14 +1586,14 @@ body.light hr.separator {
     display: block;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 .blog .header .icon-box .pause {
     display: none;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 /* Latest Posts */
@@ -1683,14 +1683,14 @@ body.light hr.separator {
     display: block;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 .blog-post .header .icon-box .pause {
     display: none;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 .blog-post article {
@@ -1731,14 +1731,14 @@ body.light hr.separator {
     display: block;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 .comment .header .icon-box .pause {
     display: none;
     margin: auto;
     cursor: pointer;
-    width: 23px;
+    width: 22px;
 }
 
 .post-image {
@@ -1912,13 +1912,13 @@ body.light hr.separator {
 
     .play {
         margin-top: 13px;
-        width: 23px;
+        width: 22px;
     }
 
     .pause {
         display: none;
         margin-top: 13px;
-        width: 23px;
+        width: 22px;
     }
 
     #textPlay {
@@ -2214,7 +2214,7 @@ body.light hr.separator {
         position: absolute;
         left: 52px;
         font-size: 18px;
-        margin: 10px;
+        margin: 11px;
         text-transform: uppercase;
     }
 
@@ -2222,7 +2222,7 @@ body.light hr.separator {
         position: absolute;
         left: 52px;
         font-size: 18px;
-        margin: 10px;
+        margin: 11px;
         text-transform: uppercase;
     }
 
