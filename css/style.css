@@ -1676,6 +1676,35 @@ body.light hr.separator {
     color: #fff !important;
 }
 
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-prev {
+    left: 50px;
+    color: #ffb400;
+}
+
+.swiper-button-next {
+    right: 50px;
+    color: #ffb400;
+}
+
 
 /* Blog Post */
 
@@ -2414,7 +2443,7 @@ body.light hr.separator {
     }
 }
 
-[data-pagination],
+/* [data-pagination],
 [data-pagination] *,
 [data-pagination] *:before,
 [data-pagination] *:after {
@@ -2425,19 +2454,19 @@ body.light hr.separator {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-kerning: auto;
-}
+} */
 
-[data-pagination] {
-    /* pt -> Points are a unit of measurement used in print. Points are based on an inch on a ruler, and one inch is equal to 72 points. This unit also varies greatly between different browsers and screens when used in CSS. Points are very good for setting up a print CSS to overcome that browser issue, but other than that, I would not recommend using points for developing websites. */
-    font-size: 8pt;
+/* [data-pagination] { */
+/* pt -> Points are a unit of measurement used in print. Points are based on an inch on a ruler, and one inch is equal to 72 points. This unit also varies greatly between different browsers and screens when used in CSS. Points are very good for setting up a print CSS to overcome that browser issue, but other than that, I would not recommend using points for developing websites. */
+/* font-size: 8pt;
     line-height: 1;
     font-weight: 400;
     font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
     -webkit-text-size-adjust: 100%;
     margin: 1em auto;
     text-align: center;
-    transition: font-size .2s ease-in-out;
-}
+    transition: font-size .2s ease-in-out; */
+/* } */
 
 [data-pagination] ul {
     list-style-type: none;
@@ -2447,12 +2476,12 @@ body.light hr.separator {
     padding: .5em;
 }
 
-[data-pagination] ul li {
+/* [data-pagination] ul li {
     display: inline-block;
     font-size: 100%;
     width: auto;
     border-radius: 3px;
-}
+} */
 
 /* The greater than sign (>) selector in CSS is used to select the element with a specific parent. It is called as element > element selector. It is also known as the child combinator selector which means that it selects only those elements which are direct children of a parent. It looks only one level down the markup structure and not further deep down. Elements which are not the direct child of the specified parent is not selected. */
 [data-pagination]>a {
