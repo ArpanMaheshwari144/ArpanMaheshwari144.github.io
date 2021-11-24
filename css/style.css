@@ -1696,12 +1696,12 @@ body.light hr.separator {
 }
 
 .swiper-button-prev {
-    left: 50px;
+    left: 4px;
     color: #ffb400;
 }
 
 .swiper-button-next {
-    right: 50px;
+    right: 20px;
     color: #ffb400;
 }
 
