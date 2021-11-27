@@ -871,18 +871,23 @@ body.light hr.separator {
     -webkit-background-clip: text;
 }
 
+.home .header .icon-box a img {
+    height: 23px;
+    width: 23px;
+}
+
 .home .header .icon-box .play {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    width: 22px;
 }
 
 .home .header .icon-box .pause {
     display: none;
-    margin: auto;
+    margin-top: 25px;
+    margin-left: 12px;
     cursor: pointer;
-    width: 22px;
 }
 
 
@@ -892,18 +897,23 @@ body.light hr.separator {
     padding-bottom: 20px;
 }
 
+.about .header .icon-box a img {
+    height: 23px;
+    width: 23px;
+}
+
 .about .header .icon-box .play {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    width: 22px;
 }
 
 .about .header .icon-box .pause {
     display: none;
-    margin: auto;
+    margin-top: 25px;
+    margin-left: 12px;
     cursor: pointer;
-    width: 22px;
 }
 
 
@@ -1120,18 +1130,23 @@ body.light hr.separator {
     margin-top: -15px;
 }
 
+.portfolio .header .icon-box a img {
+    height: 23px;
+    width: 23px;
+}
+
 .portfolio .header .icon-box .play {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    width: 22px;
 }
 
 .portfolio .header .icon-box .pause {
     display: none;
-    margin: auto;
+    margin-top: 25px;
+    margin-left: 12px;
     cursor: pointer;
-    width: 22px;
 }
 
 
@@ -1414,18 +1429,23 @@ body.light hr.separator {
     padding-bottom: 85px;
 }
 
+.contact .header .icon-box a img {
+    height: 23px;
+    width: 23px;
+}
+
 .contact .header .icon-box .play {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    width: 22px;
 }
 
 .contact .header .icon-box .pause {
     display: none;
-    margin: auto;
+    margin-top: 25px;
+    margin-left: 12px;
     cursor: pointer;
-    width: 22px;
 }
 
 
@@ -1582,18 +1602,23 @@ body.light hr.separator {
     padding-bottom: 85px;
 }
 
+.blog .header .icon-box a img {
+    height: 23px;
+    width: 23px;
+}
+
 .blog .header .icon-box .play {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    width: 22px;
 }
 
 .blog .header .icon-box .pause {
     display: none;
-    margin: auto;
+    margin-top: 25px;
+    margin-left: 12px;
     cursor: pointer;
-    width: 22px;
 }
 
 /* Latest Posts */
@@ -1708,18 +1733,23 @@ body.light hr.separator {
 
 /* Blog Post */
 
+.blog-post .header .icon-box a img {
+    height: 23px;
+    width: 23px;
+}
+
 .blog-post .header .icon-box .play {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    width: 22px;
 }
 
 .blog-post .header .icon-box .pause {
     display: none;
-    margin: auto;
+    margin-top: 25px;
+    margin-left: 12px;
     cursor: pointer;
-    width: 22px;
 }
 
 .blog-post article {
@@ -1756,18 +1786,23 @@ body.light hr.separator {
     margin-top: 10px;
 }
 
+.comment .header .icon-box a img {
+    height: 23px;
+    width: 23px;
+}
+
 .comment .header .icon-box .play {
-    display: block;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
-    width: 22px;
 }
 
 .comment .header .icon-box .pause {
     display: none;
-    margin: auto;
+    margin-top: 25px;
+    margin-left: 12px;
     cursor: pointer;
-    width: 22px;
 }
 
 .post-image {
