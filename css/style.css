@@ -885,9 +885,8 @@ body.light hr.separator {
 
 .home .header .icon-box .pause {
     display: none;
-    margin-top: 25px;
-    margin-left: 12px;
     cursor: pointer;
+    padding: 12px;
 }
 
 
@@ -911,9 +910,8 @@ body.light hr.separator {
 
 .about .header .icon-box .pause {
     display: none;
-    margin-top: 25px;
-    margin-left: 12px;
     cursor: pointer;
+    padding: 12px;
 }
 
 
@@ -1144,9 +1142,8 @@ body.light hr.separator {
 
 .portfolio .header .icon-box .pause {
     display: none;
-    margin-top: 25px;
-    margin-left: 12px;
     cursor: pointer;
+    padding: 12px;
 }
 
 
@@ -1443,9 +1440,8 @@ body.light hr.separator {
 
 .contact .header .icon-box .pause {
     display: none;
-    margin-top: 25px;
-    margin-left: 12px;
     cursor: pointer;
+    padding: 12px;
 }
 
 
@@ -1616,9 +1612,8 @@ body.light hr.separator {
 
 .blog .header .icon-box .pause {
     display: none;
-    margin-top: 25px;
-    margin-left: 12px;
     cursor: pointer;
+    padding: 12px;
 }
 
 /* Latest Posts */
@@ -1747,9 +1742,8 @@ body.light hr.separator {
 
 .blog-post .header .icon-box .pause {
     display: none;
-    margin-top: 25px;
-    margin-left: 12px;
     cursor: pointer;
+    padding: 12px;
 }
 
 .blog-post article {
@@ -1800,9 +1794,8 @@ body.light hr.separator {
 
 .comment .header .icon-box .pause {
     display: none;
-    margin-top: 25px;
-    margin-left: 12px;
     cursor: pointer;
+    padding: 12px;
 }
 
 .post-image {
