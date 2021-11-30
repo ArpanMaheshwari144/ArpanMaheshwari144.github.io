@@ -182,24 +182,68 @@
   /* ----------------------------------------------------------- */
   /*  HEADING ANIMATION
       /* ----------------------------------------------------------- */
-  var textWrapper = document.querySelector('.ml2');
-  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-  anime.timeline({
-      loop: true
-    })
-    .add({
-      targets: '.ml2 .letter',
-      scale: [4, 1],
-      opacity: [0, 1],
-      translateZ: 0,
-      easing: "easeOutExpo",
-      duration: 950,
-      delay: (el, i) => 70 * i
-    }).add({
-      targets: '.ml2',
-      opacity: 0,
-      duration: 1000,
-      easing: "easeOutExpo",
-      delay: 1000
-    });
+  // var textWrapper = document.querySelector('.ml2');
+  // textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  // anime.timeline({
+  //     loop: true
+  //   })
+  //   .add({
+  //     targets: '.ml2 .letter',
+  //     scale: [4, 1],
+  //     opacity: [0, 1],
+  //     translateZ: 0,
+  //     easing: "easeOutExpo",
+  //     duration: 950,
+  //     delay: (el, i) => 70 * i
+  //   }).add({
+  //     targets: '.ml2',
+  //     opacity: 0,
+  //     duration: 1000,
+  //     easing: "easeOutExpo",
+  //     delay: 1000
+  //   });
 })(jQuery);
+
+/* ----------------------------------------------------------- */
+/*  HEADING ANIMATION
+    /* ----------------------------------------------------------- */
+async function init() {
+  const node = document.querySelector("#type-text")
+  await sleep(1000)
+  node.innerText = ""
+  await node.type('I\'M ')
+
+  while (true) {
+    await node.type('Arpan!')
+    await sleep(2000)
+    await node.delete('Arpan!')
+  }
+}
+
+const sleep = time => new Promise(resolve => setTimeout(resolve, time))
+class TypeAsync extends HTMLSpanElement {
+  get typeInterval() {
+    const randomMs = 100 * Math.random()
+    return randomMs < 50 ? 10 : randomMs
+  }
+
+  async type(text) {
+    for (let character of text) {
+      this.innerText += character
+      await sleep(this.typeInterval)
+    }
+  }
+
+  async delete(text) {
+    for (let character of text) {
+      this.innerText = this.innerText.slice(0, this.innerText.length - 1)
+      await sleep(this.typeInterval)
+    }
+  }
+}
+
+customElements.define('type-async', TypeAsync, {
+  extends: 'span'
+})
+
+init()

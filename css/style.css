@@ -491,10 +491,12 @@ body.light hr.separator {
     margin: 0 auto;
 }
 
+/* Different Animation */
 .home .home-details h1 {
-    font-size: 43px;
+    font-size: 35px;
     font-weight: 750;
-    text-shadow: 1px 1px 1px #919191,
+    margin-bottom: -8px;
+    /* text-shadow: 1px 1px 1px #919191,
         1px 2px 1px #919191,
         1px 3px 1px #919191,
         1px 4px 1px #919191,
@@ -507,13 +509,25 @@ body.light hr.separator {
         1px 18px 6px rgba(16, 16, 16, 0.4),
         1px 22px 10px rgba(16, 16, 16, 0.2),
         1px 25px 35px rgba(16, 16, 16, 0.2),
-        1px 30px 60px rgba(16, 16, 16, 0.4);
+        1px 30px 60px rgba(16, 16, 16, 0.4); */
 }
 
-.home .home-details .ml2 .letter {
+/* .home .home-details .ml2 .letter {
     display: inline-block;
     line-height: 1em;
     color: #ffb400;
+} */
+
+/* Different Animation */
+.blinking-cursor {
+    user-select: none;
+    animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
 }
 
 .home .home-details h6 {
