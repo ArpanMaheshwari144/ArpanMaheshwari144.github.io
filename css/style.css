@@ -2273,16 +2273,18 @@ body.light hr.separator {
 
     .play {
         margin-top: 13px;
+        width: 20px;
     }
 
     .pause {
         display: none;
         margin-top: 13px;
+        width: 20px;
     }
 
     #textPlay {
         position: absolute;
-        left: 52px;
+        left: 50px;
         font-size: 18px;
         margin: 11px;
         text-transform: uppercase;
@@ -2290,7 +2292,7 @@ body.light hr.separator {
 
     #textPause {
         position: absolute;
-        left: 52px;
+        left: 50px;
         font-size: 18px;
         margin: 11px;
         text-transform: uppercase;
