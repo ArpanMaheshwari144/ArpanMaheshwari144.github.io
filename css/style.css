@@ -885,8 +885,8 @@ body.light hr.separator {
 }
 
 .home .header .icon-box a img {
-    height: 23px;
-    width: 23px;
+    height: 20px;
+    width: 20px;
 }
 
 .home .header .icon-box .play {
@@ -900,6 +900,7 @@ body.light hr.separator {
     display: none;
     cursor: pointer;
     padding: 12px;
+    text-align: center;
 }
 
 
@@ -925,6 +926,7 @@ body.light hr.separator {
     display: none;
     cursor: pointer;
     padding: 12px;
+    text-align: center;
 }
 
 
@@ -1157,6 +1159,7 @@ body.light hr.separator {
     display: none;
     cursor: pointer;
     padding: 12px;
+    text-align: center;
 }
 
 
@@ -1455,6 +1458,7 @@ body.light hr.separator {
     display: none;
     cursor: pointer;
     padding: 12px;
+    text-align: center;
 }
 
 
@@ -1627,6 +1631,7 @@ body.light hr.separator {
     display: none;
     cursor: pointer;
     padding: 12px;
+    text-align: center;
 }
 
 /* Latest Posts */
@@ -1757,6 +1762,7 @@ body.light hr.separator {
     display: none;
     cursor: pointer;
     padding: 12px;
+    text-align: center;
 }
 
 .blog-post article {
@@ -1809,6 +1815,7 @@ body.light hr.separator {
     display: none;
     cursor: pointer;
     padding: 12px;
+    text-align: center;
 }
 
 .post-image {
@@ -2231,13 +2238,8 @@ body.light hr.separator {
         line-height: 28px;
     }
 
-    .play {
-        margin-top: 13px;
-    }
-
     .pause {
         display: none;
-        margin-top: 13px;
     }
 
     #textPlay {
@@ -2272,13 +2274,11 @@ body.light hr.separator {
     }
 
     .play {
-        margin-top: 13px;
         width: 20px;
     }
 
     .pause {
         display: none;
-        margin-top: 13px;
         width: 20px;
     }
 
