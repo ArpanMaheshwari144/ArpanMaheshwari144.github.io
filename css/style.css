@@ -1988,13 +1988,13 @@ body.light hr.separator {
     }
 
     .play {
-        margin-top: 13px;
+        margin-top: 15px;
         width: 22px;
     }
 
     .pause {
         display: none;
-        margin-top: 13px;
+        margin-top: 15px;
         width: 22px;
     }
 
