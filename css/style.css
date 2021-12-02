@@ -1987,7 +1987,7 @@ body.light hr.separator {
         line-height: 30px;
     }
 
-    .play {
+    /* .play {
         margin-top: 15px;
         width: 22px;
     }
@@ -2012,6 +2012,10 @@ body.light hr.separator {
         font-size: 26px;
         margin: 6px;
         text-transform: uppercase;
+    } */
+
+    #menu li .pause {
+        display: none;
     }
 
     #menuToggle {
@@ -2238,7 +2242,7 @@ body.light hr.separator {
         line-height: 28px;
     }
 
-    .pause {
+    /* .pause {
         display: none;
     }
 
@@ -2256,6 +2260,10 @@ body.light hr.separator {
         font-size: 26px;
         margin: 6px;
         text-transform: uppercase;
+    } */
+
+    #menu li .pause {
+        display: none;
     }
 }
 
@@ -2273,7 +2281,7 @@ body.light hr.separator {
         opacity: 1 !important;
     }
 
-    .play {
+    /* .play {
         width: 20px;
     }
 
@@ -2296,6 +2304,10 @@ body.light hr.separator {
         font-size: 18px;
         margin: 11px;
         text-transform: uppercase;
+    } */
+
+    #menu li .pause {
+        display: none;
     }
 
     #menuToggle {
@@ -2380,7 +2392,6 @@ body.light hr.separator {
 
     .custom-title {
         font-size: 22px;
-        /* margin: auto 95px; */
         text-align: center;
     }
 

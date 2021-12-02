@@ -16,13 +16,10 @@
       // Mobile Menu Starts
       if ($(".play")) {
         document.getElementById("pla").style.display = "none";
-        document.getElementById("pau").style.display = "inline";
-      }
-      if ($(".play")) {
+        document.getElementById("pau").style.display = "inline-block";
         document.getElementById("textPlay").style.display = "none";
-        document.getElementById("textPause").style.display = "inline";
+        document.getElementById("textPause").style.display = "inline-block";
       }
-
     });
 
     $(".pause").on('click', function () {
@@ -36,8 +33,8 @@
       // Mobile Menu Starts
       if ($(".pause")) {
         document.getElementById("pau").style.display = "none";
-      }
-      if ($(".pause")) {
+        document.getElementById("pla").style.display = "inline-block";
+        document.getElementById("textPlay").style.display = "inline-block";
         document.getElementById("textPause").style.display = "none";
       }
     });
