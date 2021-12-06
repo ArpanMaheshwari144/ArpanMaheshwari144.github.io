@@ -196,7 +196,7 @@ async function init() {
 const sleep = time => new Promise(resolve => setTimeout(resolve, time))
 class TypeAsync extends HTMLSpanElement {
   get typeInterval() {
-    const randomMs = 100 * Math.random()
+    const randomMs = 150 * Math.random()
     return randomMs < 50 ? 10 : randomMs
   }
 
