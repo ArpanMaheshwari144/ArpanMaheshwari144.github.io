@@ -1474,6 +1474,11 @@ body.light hr.separator {
     top: 7px;
 }
 
+.contact .custom-span-contact i.fa-whatsapp-square {
+    font-size: 39px;
+    top: 7px;
+}
+
 .contact .custom-span-contact span {
     text-transform: uppercase;
     opacity: .8;
