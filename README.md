@@ -1,7 +1,7 @@
 # Personal Website
 
 ## [ArpanMaheshwari144.github.io](https://arpanmaheshwari144.github.io)
-Arpan Maheshwari | Web Developer | Front-End Developer.
+Arpan Maheshwari | Software Engineer | Developer.
 
 ## Visit <a href="https://arpanmaheshwari144.github.io/" target="_blank">arpanmaheshwari144.github.io</a> to know more about me.
 
