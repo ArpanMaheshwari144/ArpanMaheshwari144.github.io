@@ -182,7 +182,7 @@
     /* ----------------------------------------------------------- */
 async function init() {
   const node = document.querySelector("#type-text")
-  await sleep(1000)
+  await sleep(2000)
   node.innerText = ""
   await node.type('I\'M ')
 
@@ -196,7 +196,7 @@ async function init() {
 const sleep = time => new Promise(resolve => setTimeout(resolve, time))
 class TypeAsync extends HTMLSpanElement {
   get typeInterval() {
-    const randomMs = 150 * Math.random()
+    const randomMs = 210 * Math.random()
     return randomMs < 50 ? 10 : randomMs
   }
 
