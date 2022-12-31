@@ -19,6 +19,24 @@ body {
     background-color: #111;
 }
 
+.ball {
+    pointer-events: none;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: gray;
+    animation: implode 1s ease-in-out;
+    animation-fill-mode: both;
+    opacity: .5;
+}
+
+@keyframes implode {
+    100% {
+        transform: scale(0)
+    }
+}
+
 .poppins-font {
     font-family: 'Poppins', sans-serif;
 }
@@ -2508,4 +2526,59 @@ body.light hr.separator {
     [data-pagination] {
         font-size: 16pt;
     }
+}
+
+@keyframes lights {
+    0% {
+        color: hsl(230, 40%, 80%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.2),
+            0 0 0.125em hsla(320, 100%, 60%, 0.3),
+            -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+            1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+
+    30% {
+        color: hsl(230, 80%, 90%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 60%, 0.5),
+            -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+            0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    40% {
+        color: hsl(230, 100%, 95%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 90%, 0.5),
+            -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
+            0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
+    }
+
+    70% {
+        color: hsl(230, 80%, 90%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.5),
+            0 0 0.125em hsla(320, 100%, 60%, 0.5),
+            0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
+            -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
+    }
+
+    100% {
+        color: hsl(230, 40%, 80%);
+        text-shadow:
+            0 0 1em hsla(320, 100%, 50%, 0.2),
+            0 0 0.125em hsla(320, 100%, 60%, 0.3),
+            1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
+            -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
+    }
+
+}
+
+.greet {
+    margin: auto;
+    font-size: 3.5rem;
+    font-weight: 300;
+    animation: lights 5s 750ms linear infinite;
 }
