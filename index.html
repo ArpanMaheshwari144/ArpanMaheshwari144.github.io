@@ -44,6 +44,33 @@
     <!-- Modernizr JS File -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 
+    <style>
+        .waviy {
+            position: relative;
+            font-size: 20px;
+        }
+
+        .waviy span {
+            position: relative;
+            display: inline-block;
+            animation: waviy 1s infinite;
+            animation-delay: calc(.1s * var(--i));
+        }
+
+        @keyframes waviy {
+
+            0%,
+            40%,
+            100% {
+                transform: translateY(0)
+            }
+
+            20% {
+                transform: translateY(-20px)
+            }
+        }
+    </style>
+
 </head>
 
 <body class="home">
@@ -215,9 +242,22 @@
             <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
                 <div>
                     <img src="img/logo.jpg" class="img-fluid main-img-mobile d-sm-block d-lg-none" alt="my picture" />
-                    <h6 class="greet text-uppercase open-sans-font mb-0 d-block d-lg-block">hi there !
-                    </h6>
+                    <!-- <h6 class="greet text-uppercase open-sans-font mb-0 d-block d-lg-block">hi there !
+                    </h6> -->
                     <!-- <h1 class="ml2 text-uppercase poppins-font"><span>I'm</span> Arpan </h1> -->
+
+                    <div class="waviy">
+                        <span style="--i:1">H</span>
+                        <span style="--i:2">I</span>
+                        <span style="--i:3"></span>
+                        <span style="--i:4">T</span>
+                        <span style="--i:5">H</span>
+                        <span style="--i:6">E</span>
+                        <span style="--i:7">R</span>
+                        <span style="--i:8">E</span>
+                        <span style="--i:9">!</span>
+                    </div>
+
                     <h1 class="text-uppercase poppins-font">
                         <span is="type-async" id="type-text">...</span>
                         <span class="blinking-cursor">_</span>
